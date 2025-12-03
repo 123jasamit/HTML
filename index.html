@@ -1,17 +1,27 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body {
-      background-color: yellow;
-      background-image: url("ball.png");
-      background-repeat: no-repeat;
-      background-position: top right;
-      background-attachment: fixed;
-    }
-  </style>
+    <style>
+        img#flowerRight {
+            float: right;
+        }
+
+        img#flowerLeft {
+            float: left;
+        }
+    </style>
 </head>
 <body>
-  Hello world
+
+<h2>Float Right</h2>
+
+<p>In this example, the image will float to the right in the paragraph, and the other image to the left.</p>
+
+<p>
+    <img id="flowerRight" src="flower.jpeg" alt="tree" style="width:100px;height:100px;">
+    <img id="flowerLeft" src="flower.jpeg" alt="tree" style="width:100px;height:100px;">
+    This is a dummy content used to understand float property.
+</p>
+
 </body>
 </html>
